@@ -1,8 +1,40 @@
 # Calculus: LMTH 2040
 
+
+
+
 - **`version: spring_2020`**
 
 - **MW 10:15 - 11:30am** 
+
+
+```python
+%matplotlib inline
+import matplotlib.pyplot as plt
+import requests
+from bs4 import BeautifulSoup
+import wordcloud
+```
+
+
+```python
+#get html
+r = requests.get('https://en.wikipedia.org/wiki/Calculus')
+#extract text
+soup = BeautifulSoup(r.text, 'lxml')
+text = soup.get_text()
+text = text.replace('parser', '')
+#make wordcloud
+wordcloud = wordcloud.WordCloud().generate(text)
+plt.figure(figsize = (20, 4))
+plt.imshow(wordcloud)
+plt.title('What WikiPedia thinks Calculus is...', loc = 'left')
+plt.axis('off');
+```
+
+
+![png](syllabus_files/syllabus_2_0.png)
+
 
 
 ```python
@@ -142,19 +174,14 @@ Below is a tentative outline for our course.
 | 6. | 2-24 | Exam I | na |
 | 6. | 2-26 | Slope and Rate of Change | Problem Set V |
 | 7. | 3-2 | Differentiation Rules | na | 
-| 7. | 3-4 | Solving Maximum and Minimum Problems with Derivatives | na |
-| 8. | 3-9 | na | na |
-| 8. | 3-11 | na | na | 
-| 10. | 3-23 | na | na | 
-| 10. | 3-25 | na | na |
-| 11. | 3-30 | na | na |
-| 11. | 4-1 | na | na |
-| 12. | 4-6 | na | na |
-| 12. | 4-8 | na | na |
-| 13. | 4-11 | na | Final Due |
+| 7. | 3-4 | Solving Maximum and Minimum Problems with Derivatives | Problem Set VI |
+| 8. | 3-9 | Differentiation Review | Review |
+| 8. | 3-11 | Differentiation Exam| na | 
+| 10. | 3-23 | Functions in 3D | na | 
+| 10. | 3-25 | Integration and Differentiation in 3D | Problem Set VII |
+| 11. | 3-30 | Population Models with Differential Equations | na |
+| 11. | 4-1 | Approximating Solutions with Euler's Method | Problem Set VIII |
+| 12. | 4-6 | Review | Review |
+| 12. | 4-8 | Exam III | na |
+| 13. | 4-11 | Final | Final Presentations |
 
-
-
-```python
-
-```
