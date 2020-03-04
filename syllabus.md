@@ -27,7 +27,7 @@ Basic arithmetic and some experience with algebra and functions.
 
 While I imagine we will get all the information we need from lecture materials, problem sets, and specific readings -- it is good to have reference material around.  First, I encourage you to get an older copy of a large Calculus textbook.  Here are some examples, I'd try to not spend more than twenty dollars:
 
-<div class="alert alert-primary" role="alert">
+
     
 **Traditional Calculus Textbooks**
     
@@ -37,11 +37,11 @@ While I imagine we will get all the information we need from lecture materials, 
 - [**Larson Calculus**](https://www.amazon.com/Calculus-Ron-Larson/dp/1337275344/ref=pd_sbs_14_17?_encoding=UTF8&pd_rd_i=1337275344&pd_rd_r=7863659e-a2a0-4a24-8816-d04b5da77eac&pd_rd_w=keHMI&pd_rd_wg=cuVVh&pf_rd_p=bdd201df-734f-454e-883c-73b0d8ccd4c3&pf_rd_r=S8E686FFMK35BXYFNS19&psc=1&refRID=S8E686FFMK35BXYFNS19): Any edition, another popular textbook.
 - [**Edwards and Penny**](https://www.amazon.com/Multivariable-Calculus-6th-Henry-Edwards/dp/0130339679/ref=sr_1_3?keywords=edwards+calculus&qid=1579551485&s=books&sr=1-3): Any edition, Edwards has many nice textbooks.
     
-</div>
+
 
 Many free calculus textbooks are also available, here are some suggestions:
 
-<div class="alert alert-primary" role="alert">
+
     
 **Online Calculus Texts**
 
@@ -49,12 +49,12 @@ Many free calculus textbooks are also available, here are some suggestions:
 - [**Calculus I and II**](http://www.freebookcentre.net/maths-books-download/Calculus-I-%28Paul-Dawkins%29.html): Paul Dawkins open calculus textbook.
 - [**Strang's Calculus**](https://ocw.mit.edu/resources/res-18-001-calculus-online-textbook-spring-2005/textbook/): Classic text from MIT's Gilbert Strang.
     
-</div>
+
 
 
 Besides texts, there are many additional resources available for support.  I like YouTube and video, here are additional suggestions:
 
-<div class="alert alert-primary" role="alert">
+
 
 **Video Series on Calculus**
     
@@ -62,7 +62,7 @@ Besides texts, there are many additional resources available for support.  I lik
 - [**MIT Big Picture of Calculus**](https://ocw.mit.edu/resources/res-18-005-highlights-of-calculus-spring-2010/highlights_of_calculus/big-picture-of-calculus/): Brief video series on big picture of calculus.
 - [**3Blue1Brown Essence of Calculus**](https://www.youtube.com/watch?v=WUvTyaaNkzM): Popular YouTube station series on big picture of calculus.
     
-</div>
+
 
 
 ## Course Policies
@@ -123,10 +123,10 @@ Below is a tentative outline for our course.
 |  1. | 1-22 | Introduction and Review | Problem Set I |
 | 2. | 1-27 | Functions and Area  | na |
 | 2. | 1-29 | Summations and Patterns | Problem Set II |
-| 3. | 2-3 | Definite Integral and Area | na | 
-| 3. | 2-5 | Definite Integral and Volumes | Problem Set III |
-| 4. | 2-10 | Indefinite integrals | na |
-| 4. | 2-12 | Probability and Integration | Problem Set IV |
+| 3. | 2-3 | Approximating Areas | na | 
+| 3. | 2-5 | Definite Integral  | Problem Set III |
+| 4. | 2-10 | Area Between Curves and Net Change | na |
+| 4. | 2-12 | Applications of Integration | Problem Set IV |
 | 5. | 2-19 | Integration Review | Review | 
 | 6. | 2-24 | Exam I | na |
 | 6. | 2-26 | Slope and Rate of Change | Problem Set V |
@@ -138,7 +138,22 @@ Below is a tentative outline for our course.
 | 10. | 3-25 | Integration and Differentiation in 3D | Problem Set VII |
 | 11. | 3-30 | Population Models with Differential Equations | na |
 | 11. | 4-1 | Approximating Solutions with Euler's Method | Problem Set VIII |
-| 12. | 4-6 | Review | Review |
-| 12. | 4-8 | Exam III | na |
-| 13. | 4-11 | Final | Final Presentations |
+| 12. | 4-6 | What is a gradient? | na |
+| 12. | 4-8 | What is gradient Descent | Regression Revisited |
+| 13. | 4-13 | tbd. | na |
+| 13. | 4-15 | tbd. | na |
+| 14. | 4-20 | tbd. | na |
+| 14. | 4-22 | tbd. | na |
+| 15. | 4-27 | tbd. | na |
+| 15. | 4-29 | tbd. | na |
+| 16. | 5-4 | tbd. | na |
+| 16. | 5-6 | Review | Review |
+| 17. | 5-11 | Finals | na |
 
+
+
+
+
+```python
+
+```
