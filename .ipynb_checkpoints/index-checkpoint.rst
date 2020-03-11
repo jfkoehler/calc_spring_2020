@@ -10,8 +10,8 @@ Welcome to Calculus's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-    notebooks/syllabus.ipynb
-    notebooks/01_calculus.ipynb
+    /notebooks/syllabus.ipynb
+    /notebooks/01_calculus.ipynb
 
 Indices and tables
 ==================
