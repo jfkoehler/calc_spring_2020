@@ -100,9 +100,9 @@ div.nboutput.container div.prompt pre {
 /* all prompts */
 div.nbinput.container div.prompt,
 div.nboutput.container div.prompt {
-    min-width: 5.5ex;
-    padding-top: 0.3rem;
-    padding-right: 0.3rem;
+    min-width: 5ex;
+    padding-top: 0.4em;
+    padding-right: 0.4em;
     text-align: right;
     flex: 0;
 }
@@ -126,6 +126,7 @@ div.nboutput.container div.prompt pre {
 /* input/output area */
 div.nbinput.container div.input_area,
 div.nboutput.container div.output_area {
+    padding: 0.4em;
     -webkit-flex: 1;
     flex: 1;
     overflow: auto;
@@ -198,27 +199,6 @@ div.nboutput.container div.output_area.stderr {
 
 .ansi-bold { font-weight: bold; }
 .ansi-underline { text-decoration: underline; }
-
-
-div.nbinput.container div.input_area div[class*=highlight] > pre,
-div.nboutput.container div.output_area div[class*=highlight] > pre,
-div.nboutput.container div.output_area div[class*=highlight].math,
-div.nboutput.container div.output_area.rendered_html,
-div.nboutput.container div.output_area > div.output_javascript,
-div.nboutput.container div.output_area:not(.rendered_html) > img{
-    padding: 0.3rem;
-}
-
-/* fix copybtn overflow problem in chromium (needed for 'sphinx_copybutton') */
-div.nbinput.container div.input_area > div[class^='highlight'],
-div.nboutput.container div.output_area > div[class^='highlight']{
-    overflow-y: hidden;
-}
-
-/* hide copybtn icon on prompts (needed for 'sphinx_copybutton') */
-.prompt a.copybtn {
-    display: none;
-}
 
 /* Some additional styling taken form the Jupyter notebook CSS */
 div.rendered_html table {
@@ -293,8 +273,8 @@ div.rendered_html tbody tr:hover {
 <h2>PROBLEM<a class="headerlink" href="#PROBLEM" title="Permalink to this headline">¶</a></h2>
 <p>A wire four feet long is cut in two pieces. One piece forms a circle of radius <span class="math notranslate nohighlight">\(r\)</span>, the other forms a square of side <span class="math notranslate nohighlight">\(x\)</span>. Choose <span class="math notranslate nohighlight">\(r\)</span> to minimize the sum of their areas. Then choose <span class="math notranslate nohighlight">\(r\)</span> to maximize.</p>
 </div>
-<div class="section" id="id1">
-<h2>PROBLEM<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="PROBLEM">
+<h2>PROBLEM<a class="headerlink" href="#PROBLEM" title="Permalink to this headline">¶</a></h2>
 <p>A fixed wall makes one side of a rectangle. We have 200 feet of fence for the other three sides. Maximize the area A in 4 steps:</p>
 <ol class="arabic simple">
 <li><p>Draw a picture of the situation.</p></li>
@@ -332,7 +312,7 @@ div.rendered_html tbody tr:hover {
 <div class="prompt empty docutils container">
 </div>
 <div class="output_area docutils container">
-<div class="output_javascript"></div>
+<div></div>
 <script type="text/javascript">
 var element = document.currentScript.previousSibling.previousSibling;
 /* Put everything inside the global mpl namespace */
@@ -1159,7 +1139,7 @@ if (IPython.notebook.kernel != null) {
 <div class="prompt empty docutils container">
 </div>
 <div class="output_area docutils container">
-<div class="output_javascript"></div>
+<div></div>
 <script type="text/javascript">
 var element = document.currentScript.previousSibling.previousSibling;
 /* Put everything inside the global mpl namespace */
@@ -1979,7 +1959,7 @@ if (IPython.notebook.kernel != null) {
 <div class="prompt empty docutils container">
 </div>
 <div class="output_area docutils container">
-<div class="output_javascript"></div>
+<div></div>
 <script type="text/javascript">
 var element = document.currentScript.previousSibling.previousSibling;
 /* Put everything inside the global mpl namespace */
@@ -2774,7 +2754,7 @@ if (IPython.notebook.kernel != null) {
 <div class="prompt empty docutils container">
 </div>
 <div class="output_area docutils container">
-<div class="output_javascript"></div>
+<div></div>
 <script type="text/javascript">
 var element = document.currentScript.previousSibling.previousSibling;
 /* Put everything inside the global mpl namespace */
@@ -3599,7 +3579,7 @@ if (IPython.notebook.kernel != null) {
 <div class="prompt empty docutils container">
 </div>
 <div class="output_area docutils container">
-<div class="output_javascript"></div>
+<div></div>
 <script type="text/javascript">
 var element = document.currentScript.previousSibling.previousSibling;
 /* Put everything inside the global mpl namespace */
@@ -4424,7 +4404,7 @@ if (IPython.notebook.kernel != null) {
 <div class="prompt empty docutils container">
 </div>
 <div class="output_area docutils container">
-<div class="output_javascript"></div>
+<div></div>
 <script type="text/javascript">
 var element = document.currentScript.previousSibling.previousSibling;
 /* Put everything inside the global mpl namespace */
@@ -5459,7 +5439,7 @@ if (IPython.notebook.kernel != null) {
 <div class="prompt empty docutils container">
 </div>
 <div class="output_area docutils container">
-<div class="output_javascript"></div>
+<div></div>
 <script type="text/javascript">
 var element = document.currentScript.previousSibling.previousSibling;
 /* Put everything inside the global mpl namespace */
@@ -6259,7 +6239,7 @@ if (IPython.notebook.kernel != null) {
 <div class="prompt empty docutils container">
 </div>
 <div class="output_area docutils container">
-<div class="output_javascript"></div>
+<div></div>
 <script type="text/javascript">
 var element = document.currentScript.previousSibling.previousSibling;
 /* Put everything inside the global mpl namespace */
@@ -7088,7 +7068,7 @@ if (IPython.notebook.kernel != null) {
 <div class="prompt empty docutils container">
 </div>
 <div class="output_area docutils container">
-<div class="output_javascript"></div>
+<div></div>
 <script type="text/javascript">
 var element = document.currentScript.previousSibling.previousSibling;
 /* Put everything inside the global mpl namespace */
