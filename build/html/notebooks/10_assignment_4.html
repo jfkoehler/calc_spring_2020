@@ -1,0 +1,1080 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Review &#8212; Calculus with a Computer 6.6.6 documentation</title>
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/language_data.js"></script>
+    <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["$", "$"], ["\\(", "\\)"]], "processEscapes": true, "ignoreClass": "document", "processClass": "math|output_area"}})</script>
+    <script type="text/javascript" src="https://unpkg.com/@jupyter-widgets/html-manager@^0.18.0/dist/embed-amd.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  
+<style>
+/* CSS for nbsphinx extension */
+
+/* remove conflicting styling from Sphinx themes */
+div.nbinput.container,
+div.nbinput.container div.prompt,
+div.nbinput.container div.input_area,
+div.nbinput.container div[class*=highlight],
+div.nbinput.container div[class*=highlight] pre,
+div.nboutput.container,
+div.nboutput.container div.prompt,
+div.nboutput.container div.output_area,
+div.nboutput.container div[class*=highlight],
+div.nboutput.container div[class*=highlight] pre {
+    background: none;
+    border: none;
+    padding: 0 0;
+    margin: 0;
+    box-shadow: none;
+}
+
+/* avoid gaps between output lines */
+div.nboutput.container div[class*=highlight] pre {
+    line-height: normal;
+}
+
+/* input/output containers */
+div.nbinput.container,
+div.nboutput.container {
+    display: -webkit-flex;
+    display: flex;
+    align-items: flex-start;
+    margin: 0;
+    width: 100%;
+}
+@media (max-width: 540px) {
+    div.nbinput.container,
+    div.nboutput.container {
+        flex-direction: column;
+    }
+}
+
+/* input container */
+div.nbinput.container {
+    padding-top: 5px;
+}
+
+/* last container */
+div.nblast.container {
+    padding-bottom: 5px;
+}
+
+/* input prompt */
+div.nbinput.container div.prompt pre {
+    color: #307FC1;
+}
+
+/* output prompt */
+div.nboutput.container div.prompt pre {
+    color: #BF5B3D;
+}
+
+/* all prompts */
+div.nbinput.container div.prompt,
+div.nboutput.container div.prompt {
+    min-width: 5.5ex;
+    padding-top: 0.3rem;
+    padding-right: 0.3rem;
+    text-align: right;
+    flex: 0;
+}
+@media (max-width: 540px) {
+    div.nbinput.container div.prompt,
+    div.nboutput.container div.prompt {
+        text-align: left;
+        padding: 0.4em;
+    }
+    div.nboutput.container div.prompt.empty {
+        padding: 0;
+    }
+}
+
+/* disable scrollbars on prompts */
+div.nbinput.container div.prompt pre,
+div.nboutput.container div.prompt pre {
+    overflow: hidden;
+}
+
+/* input/output area */
+div.nbinput.container div.input_area,
+div.nboutput.container div.output_area {
+    -webkit-flex: 1;
+    flex: 1;
+    overflow: auto;
+}
+@media (max-width: 540px) {
+    div.nbinput.container div.input_area,
+    div.nboutput.container div.output_area {
+        width: 100%;
+    }
+}
+
+/* input area */
+div.nbinput.container div.input_area {
+    border: 1px solid #e0e0e0;
+    border-radius: 2px;
+    background: #f5f5f5;
+}
+
+/* override MathJax center alignment in output cells */
+div.nboutput.container div[class*=MathJax] {
+    text-align: left !important;
+}
+
+/* override sphinx.ext.imgmath center alignment in output cells */
+div.nboutput.container div.math p {
+    text-align: left;
+}
+
+/* standard error */
+div.nboutput.container div.output_area.stderr {
+    background: #fdd;
+}
+
+/* ANSI colors */
+.ansi-black-fg { color: #3E424D; }
+.ansi-black-bg { background-color: #3E424D; }
+.ansi-black-intense-fg { color: #282C36; }
+.ansi-black-intense-bg { background-color: #282C36; }
+.ansi-red-fg { color: #E75C58; }
+.ansi-red-bg { background-color: #E75C58; }
+.ansi-red-intense-fg { color: #B22B31; }
+.ansi-red-intense-bg { background-color: #B22B31; }
+.ansi-green-fg { color: #00A250; }
+.ansi-green-bg { background-color: #00A250; }
+.ansi-green-intense-fg { color: #007427; }
+.ansi-green-intense-bg { background-color: #007427; }
+.ansi-yellow-fg { color: #DDB62B; }
+.ansi-yellow-bg { background-color: #DDB62B; }
+.ansi-yellow-intense-fg { color: #B27D12; }
+.ansi-yellow-intense-bg { background-color: #B27D12; }
+.ansi-blue-fg { color: #208FFB; }
+.ansi-blue-bg { background-color: #208FFB; }
+.ansi-blue-intense-fg { color: #0065CA; }
+.ansi-blue-intense-bg { background-color: #0065CA; }
+.ansi-magenta-fg { color: #D160C4; }
+.ansi-magenta-bg { background-color: #D160C4; }
+.ansi-magenta-intense-fg { color: #A03196; }
+.ansi-magenta-intense-bg { background-color: #A03196; }
+.ansi-cyan-fg { color: #60C6C8; }
+.ansi-cyan-bg { background-color: #60C6C8; }
+.ansi-cyan-intense-fg { color: #258F8F; }
+.ansi-cyan-intense-bg { background-color: #258F8F; }
+.ansi-white-fg { color: #C5C1B4; }
+.ansi-white-bg { background-color: #C5C1B4; }
+.ansi-white-intense-fg { color: #A1A6B2; }
+.ansi-white-intense-bg { background-color: #A1A6B2; }
+
+.ansi-default-inverse-fg { color: #FFFFFF; }
+.ansi-default-inverse-bg { background-color: #000000; }
+
+.ansi-bold { font-weight: bold; }
+.ansi-underline { text-decoration: underline; }
+
+
+div.nbinput.container div.input_area div[class*=highlight] > pre,
+div.nboutput.container div.output_area div[class*=highlight] > pre,
+div.nboutput.container div.output_area div[class*=highlight].math,
+div.nboutput.container div.output_area.rendered_html,
+div.nboutput.container div.output_area > div.output_javascript,
+div.nboutput.container div.output_area:not(.rendered_html) > img{
+    padding: 0.3rem;
+}
+
+/* fix copybtn overflow problem in chromium (needed for 'sphinx_copybutton') */
+div.nbinput.container div.input_area > div[class^='highlight'],
+div.nboutput.container div.output_area > div[class^='highlight']{
+    overflow-y: hidden;
+}
+
+/* hide copybtn icon on prompts (needed for 'sphinx_copybutton') */
+.prompt a.copybtn {
+    display: none;
+}
+
+/* Some additional styling taken form the Jupyter notebook CSS */
+div.rendered_html table {
+  border: none;
+  border-collapse: collapse;
+  border-spacing: 0;
+  color: black;
+  font-size: 12px;
+  table-layout: fixed;
+}
+div.rendered_html thead {
+  border-bottom: 1px solid black;
+  vertical-align: bottom;
+}
+div.rendered_html tr,
+div.rendered_html th,
+div.rendered_html td {
+  text-align: right;
+  vertical-align: middle;
+  padding: 0.5em 0.5em;
+  line-height: normal;
+  white-space: normal;
+  max-width: none;
+  border: none;
+}
+div.rendered_html th {
+  font-weight: bold;
+}
+div.rendered_html tbody tr:nth-child(odd) {
+  background: #f5f5f5;
+}
+div.rendered_html tbody tr:hover {
+  background: rgba(66, 165, 245, 0.2);
+}
+</style>
+<div class="section" id="Review">
+<h1>Review<a class="headerlink" href="#Review" title="Permalink to this headline">¶</a></h1>
+<div class="nbinput nblast docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[5]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
+<span></span><span class="o">%</span><span class="k">matplotlib</span> inline
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">import</span> <span class="nn">sympy</span> <span class="k">as</span> <span class="nn">sy</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="Problem:-Summations">
+<h2>Problem: Summations<a class="headerlink" href="#Problem:-Summations" title="Permalink to this headline">¶</a></h2>
+<p>Use the summation formulas below to evaluate the given summations.</p>
+<div class="math notranslate nohighlight">
+\[\sum_{i = 1}^n i = \frac{n^{2}}{2} + \frac{n}{2}\]</div>
+<div class="math notranslate nohighlight">
+\[\sum_{i = 1}^n i^2 = \frac{n^{3}}{3} + \frac{n^{2}}{2} + \frac{n}{6}\]</div>
+<div class="math notranslate nohighlight">
+\[\sum_{i = 1}^n i^3 = \frac{n^{4}}{4} + \frac{n^{3}}{2} + \frac{n^{2}}{4}\]</div>
+<ol class="loweralpha simple">
+<li><p><span class="math notranslate nohighlight">\(\sum_{i = 1}^{10} i^2 - i\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\sum_{i = 1}^{20} 4i^3 + i^2 - 6\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\sum_{i = 4}^{10} 2i^2\)</span></p></li>
+</ol>
+<div class="nbinput nblast docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[6]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
+<span></span><span class="n">i</span> <span class="o">=</span> <span class="n">sy</span><span class="o">.</span><span class="n">Symbol</span><span class="p">(</span><span class="s1">&#39;i&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="nbinput docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[7]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
+<span></span><span class="n">sy</span><span class="o">.</span><span class="n">summation</span><span class="p">(</span><span class="n">i</span><span class="o">**</span><span class="mi">2</span> <span class="o">-</span> <span class="n">i</span><span class="p">,</span> <span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">10</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+<div class="nboutput nblast docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[7]:
+</pre></div>
+</div>
+<div class="output_area docutils container">
+<div class="math notranslate nohighlight">
+$\displaystyle 330$</div></div>
+</div>
+<div class="nbinput docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[11]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
+<span></span><span class="n">sy</span><span class="o">.</span><span class="n">summation</span><span class="p">(</span><span class="mi">4</span><span class="o">*</span><span class="n">i</span><span class="o">**</span><span class="mi">3</span> <span class="o">+</span> <span class="n">i</span><span class="o">**</span><span class="mi">2</span> <span class="o">-</span> <span class="mi">6</span><span class="p">,</span> <span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="n">n</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+<div class="nboutput nblast docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[11]:
+</pre></div>
+</div>
+<div class="output_area docutils container">
+<div class="math notranslate nohighlight">
+$\displaystyle n^{4} + \frac{7 n^{3}}{3} + \frac{3 n^{2}}{2} - \frac{35 n}{6}$</div></div>
+</div>
+<div class="nbinput nblast docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[9]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
+<span></span><span class="n">n</span> <span class="o">=</span> <span class="n">sy</span><span class="o">.</span><span class="n">Symbol</span><span class="p">(</span><span class="s1">&#39;n&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="nbinput docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[12]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
+<span></span><span class="n">sy</span><span class="o">.</span><span class="n">summation</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">i</span><span class="o">**</span><span class="mi">2</span><span class="p">,</span> <span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">10</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+<div class="nboutput nblast docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[12]:
+</pre></div>
+</div>
+<div class="output_area docutils container">
+<div class="math notranslate nohighlight">
+$\displaystyle 742$</div></div>
+</div>
+</div>
+<div class="section" id="Problem-2:-Mean,-Variance,-Standard-Deviation">
+<h2>Problem 2: Mean, Variance, Standard Deviation<a class="headerlink" href="#Problem-2:-Mean,-Variance,-Standard-Deviation" title="Permalink to this headline">¶</a></h2>
+<p>Below is a sample of historic data relating to NYPD arrests. We count the 20 most frequent violations, and ask you to use these values to compute the <em>mean number of incidents</em>, <em>variance in incident counts</em>, and <em>standard deviation of incident counts</em>.</p>
+<div class="nbinput nblast docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[13]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
+<span></span><span class="n">nyc_arrests</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_json</span><span class="p">(</span><span class="s1">&#39;https://data.cityofnewyork.us/resource/8h9b-rp9u.json&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="nbinput docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[14]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
+<span></span><span class="n">nyc_arrests</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="nboutput nblast docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[14]:
+</pre></div>
+</div>
+<div class="output_area rendered_html docutils container">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>arrest_key</th>
+      <th>arrest_date</th>
+      <th>pd_cd</th>
+      <th>pd_desc</th>
+      <th>ky_cd</th>
+      <th>ofns_desc</th>
+      <th>law_code</th>
+      <th>law_cat_cd</th>
+      <th>arrest_boro</th>
+      <th>arrest_precinct</th>
+      <th>jurisdiction_code</th>
+      <th>age_group</th>
+      <th>perp_sex</th>
+      <th>perp_race</th>
+      <th>x_coord_cd</th>
+      <th>y_coord_cd</th>
+      <th>latitude</th>
+      <th>longitude</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0</td>
+      <td>173130602</td>
+      <td>2017-12-31T00:00:00.000</td>
+      <td>566</td>
+      <td>MARIJUANA, POSSESSION</td>
+      <td>678.0</td>
+      <td>MISCELLANEOUS PENAL LAW</td>
+      <td>PL 2210500</td>
+      <td>V</td>
+      <td>Q</td>
+      <td>105</td>
+      <td>0</td>
+      <td>25-44</td>
+      <td>M</td>
+      <td>BLACK</td>
+      <td>1063056</td>
+      <td>207463</td>
+      <td>40.735772</td>
+      <td>-73.715638</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>173114463</td>
+      <td>2017-12-31T00:00:00.000</td>
+      <td>478</td>
+      <td>THEFT OF SERVICES, UNCLASSIFIED</td>
+      <td>343.0</td>
+      <td>OTHER OFFENSES RELATED TO THEFT</td>
+      <td>PL 1651503</td>
+      <td>M</td>
+      <td>Q</td>
+      <td>114</td>
+      <td>0</td>
+      <td>25-44</td>
+      <td>M</td>
+      <td>ASIAN / PACIFIC ISLANDER</td>
+      <td>1009113</td>
+      <td>219613</td>
+      <td>40.769437</td>
+      <td>-73.910241</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>173113513</td>
+      <td>2017-12-31T00:00:00.000</td>
+      <td>849</td>
+      <td>NY STATE LAWS,UNCLASSIFIED VIOLATION</td>
+      <td>677.0</td>
+      <td>OTHER STATE LAWS</td>
+      <td>LOC000000V</td>
+      <td>V</td>
+      <td>K</td>
+      <td>73</td>
+      <td>1</td>
+      <td>18-24</td>
+      <td>M</td>
+      <td>BLACK</td>
+      <td>1010719</td>
+      <td>186857</td>
+      <td>40.679525</td>
+      <td>-73.904572</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>173113423</td>
+      <td>2017-12-31T00:00:00.000</td>
+      <td>101</td>
+      <td>ASSAULT 3</td>
+      <td>344.0</td>
+      <td>ASSAULT 3 &amp; RELATED OFFENSES</td>
+      <td>PL 1200001</td>
+      <td>M</td>
+      <td>M</td>
+      <td>18</td>
+      <td>0</td>
+      <td>25-44</td>
+      <td>M</td>
+      <td>WHITE</td>
+      <td>987831</td>
+      <td>217446</td>
+      <td>40.763523</td>
+      <td>-73.987074</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>173113421</td>
+      <td>2017-12-31T00:00:00.000</td>
+      <td>101</td>
+      <td>ASSAULT 3</td>
+      <td>344.0</td>
+      <td>ASSAULT 3 &amp; RELATED OFFENSES</td>
+      <td>PL 1200001</td>
+      <td>M</td>
+      <td>M</td>
+      <td>18</td>
+      <td>0</td>
+      <td>45-64</td>
+      <td>M</td>
+      <td>BLACK</td>
+      <td>987073</td>
+      <td>216078</td>
+      <td>40.759768</td>
+      <td>-73.989811</td>
+    </tr>
+  </tbody>
+</table>
+</div></div>
+</div>
+<div class="nbinput nblast docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[16]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
+<span></span><span class="n">arrests</span> <span class="o">=</span> <span class="n">nyc_arrests</span><span class="p">[</span><span class="s1">&#39;pd_desc&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span><span class="o">.</span><span class="n">nlargest</span><span class="p">(</span><span class="mi">20</span><span class="p">)</span><span class="o">.</span><span class="n">to_frame</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="nbinput docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[18]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
+<span></span><span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">arrests</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="nboutput nblast docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[18]:
+</pre></div>
+</div>
+<div class="output_area docutils container">
+<div class="highlight"><pre>
+pd_desc    38.25
+dtype: float64
+</pre></div></div>
+</div>
+<div class="nbinput docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[19]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
+<span></span><span class="n">np</span><span class="o">.</span><span class="n">var</span><span class="p">(</span><span class="n">arrests</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="nboutput nblast docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[19]:
+</pre></div>
+</div>
+<div class="output_area docutils container">
+<div class="highlight"><pre>
+pd_desc    1031.2875
+dtype: float64
+</pre></div></div>
+</div>
+<div class="nbinput docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[20]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
+<span></span><span class="n">np</span><span class="o">.</span><span class="n">std</span><span class="p">(</span><span class="n">arrests</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="nboutput nblast docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[20]:
+</pre></div>
+</div>
+<div class="output_area docutils container">
+<div class="highlight"><pre>
+pd_desc    32.113665
+dtype: float64
+</pre></div></div>
+</div>
+<div class="nbinput docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[15]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
+<span></span><span class="n">nyc_arrests</span><span class="p">[</span><span class="s1">&#39;pd_desc&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span><span class="o">.</span><span class="n">nlargest</span><span class="p">(</span><span class="mi">20</span><span class="p">)</span><span class="o">.</span><span class="n">to_frame</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="nboutput nblast docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[15]:
+</pre></div>
+</div>
+<div class="output_area rendered_html docutils container">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>pd_desc</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ASSAULT 3</td>
+      <td>142</td>
+    </tr>
+    <tr>
+      <td>LARCENY,PETIT FROM OPEN AREAS,UNCLASSIFIED</td>
+      <td>89</td>
+    </tr>
+    <tr>
+      <td>TRAFFIC,UNCLASSIFIED MISDEMEAN</td>
+      <td>74</td>
+    </tr>
+    <tr>
+      <td>MARIJUANA, POSSESSION 4 &amp; 5</td>
+      <td>67</td>
+    </tr>
+    <tr>
+      <td>INTOXICATED DRIVING,ALCOHOL</td>
+      <td>53</td>
+    </tr>
+    <tr>
+      <td>ASSAULT 2,1,UNCLASSIFIED</td>
+      <td>47</td>
+    </tr>
+    <tr>
+      <td>ROBBERY,UNCLASSIFIED,OPEN AREAS</td>
+      <td>37</td>
+    </tr>
+    <tr>
+      <td>THEFT OF SERVICES, UNCLASSIFIED</td>
+      <td>32</td>
+    </tr>
+    <tr>
+      <td>LARCENY,GRAND FROM OPEN AREAS,UNCLASSIFIED</td>
+      <td>29</td>
+    </tr>
+    <tr>
+      <td>CONTROLLED SUBSTANCE, POSSESSION 7</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td>PUBLIC ADMINISTRATION,UNCLASSIFIED FELONY</td>
+      <td>23</td>
+    </tr>
+    <tr>
+      <td>OBSTR BREATH/CIRCUL</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>MENACING,UNCLASSIFIED</td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <td>RESISTING ARREST</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <td>WEAPONS, POSSESSION, ETC</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <td>FORGERY,ETC.,UNCLASSIFIED-FELONY</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <td>CONTROLLED SUBSTANCE,INTENT TO SELL 3</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <td>WEAPONS POSSESSION 3</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>TRAFFIC,UNCLASSIFIED MISDEMEANOR</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>WEAPONS POSSESSION 1 &amp; 2</td>
+      <td>14</td>
+    </tr>
+  </tbody>
+</table>
+</div></div>
+</div>
+</div>
+<div class="section" id="Problem:-Root-Mean-Squared-Error">
+<h2>Problem: Root Mean Squared Error<a class="headerlink" href="#Problem:-Root-Mean-Squared-Error" title="Permalink to this headline">¶</a></h2>
+<p>Suppose we build a model to predict the price of an apartment using the square footage and bedrooms as follows:</p>
+<div class="math notranslate nohighlight">
+\[c(x,y) = 10x + 1.2y + 200\]</div>
+<p>where <span class="math notranslate nohighlight">\(x\)</span> represents square footage and <span class="math notranslate nohighlight">\(y\)</span> the number of bedrooms. The <strong>Root Mean Squared Error</strong> is defined by:</p>
+<div class="math notranslate nohighlight">
+\[RMSE = \sqrt{\frac{\sum_{i = 1}^n (\hat{y} - y_i)^2 }{n}}\]</div>
+<p>essentially the square root of summed squared errors between real and predicted cost.</p>
+<p>Use the formula to find the <strong>RMSE</strong> of our models predictions below.</p>
+<table border="1" class="dataframe"><thead><tr style="text-align: right;"><th></th><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">&lt;</span><span class="n">th</span><span class="o">&gt;</span><span class="n">square</span> <span class="n">footage</span><span class="o">&lt;/</span><span class="n">th</span><span class="o">&gt;</span>      <span class="o">&lt;</span><span class="n">th</span><span class="o">&gt;</span><span class="n">bedrooms</span><span class="o">&lt;/</span><span class="n">th</span><span class="o">&gt;</span>      <span class="o">&lt;</span><span class="n">th</span><span class="o">&gt;</span><span class="n">real_cost</span><span class="o">&lt;/</span><span class="n">th</span><span class="o">&gt;</span>      <span class="o">&lt;</span><span class="n">th</span><span class="o">&gt;</span><span class="n">predicted_cost</span><span class="o">&lt;/</span><span class="n">th</span><span class="o">&gt;</span>    <span class="o">&lt;/</span><span class="n">tr</span><span class="o">&gt;</span>  <span class="o">&lt;/</span><span class="n">thead</span><span class="o">&gt;</span>  <span class="o">&lt;</span><span class="n">tbody</span><span class="o">&gt;</span>    <span class="o">&lt;</span><span class="n">tr</span><span class="o">&gt;</span>      <span class="o">&lt;</span><span class="n">th</span><span class="o">&gt;</span><span class="mi">0</span><span class="o">&lt;/</span><span class="n">th</span><span class="o">&gt;</span>      <span class="o">&lt;</span><span class="n">td</span><span class="o">&gt;</span><span class="mi">400</span><span class="o">&lt;/</span><span class="n">td</span><span class="o">&gt;</span>      <span class="o">&lt;</span><span class="n">td</span><span class="o">&gt;</span><span class="mi">1</span><span class="o">&lt;/</span><span class="n">td</span><span class="o">&gt;</span>      <span class="o">&lt;</span><span class="n">td</span><span class="o">&gt;</span><span class="mf">4300.76</span><span class="o">&lt;/</span><span class="n">td</span><span class="o">&gt;</span>      <span class="o">&lt;</span><span class="n">td</span><span class="o">&gt;</span><span class="mf">4201.2</span><span class="o">&lt;/</span><span class="n">td</span><span class="o">&gt;</span>    <span class="o">&lt;/</span><span class="n">tr</span><span class="o">&gt;</span>    <span class="o">&lt;</span><span class="n">tr</span><span class="o">&gt;</span>      <span class="o">&lt;</span><span class="n">th</span><span class="o">&gt;</span><span class="mi">1</span><span class="o">&lt;/</span><span class="n">th</span><span class="o">&gt;</span>      <span class="o">&lt;</span><span class="n">td</span><span class="o">&gt;</span><span class="mi">500</span><span class="o">&lt;/</span><span class="n">td</span><span class="o">&gt;</span>      <span class="o">&lt;</span><span class="n">td</span><span class="o">&gt;</span><span class="mi">1</span><span class="o">&lt;/</span><span class="n">td</span><span class="o">&gt;</span>      <span class="o">&lt;</span><span class="n">td</span><span class="o">&gt;</span><span class="mf">5301.01</span><span class="o">&lt;/</span><span class="n">td</span><span class="o">&gt;</span>      <span class="o">&lt;</span><span class="n">td</span><span class="o">&gt;</span><span class="mf">5201.2</span><span class="o">&lt;/</span><span class="n">td</span><span class="o">&gt;</span>    <span class="o">&lt;/</span><span class="n">tr</span><span class="o">&gt;</span>    <span class="o">&lt;</span><span class="n">tr</span><span class="o">&gt;</span>      <span class="o">&lt;</span><span class="n">th</span><span class="o">&gt;</span><span class="mi">2</span><span class="o">&lt;/</span><span class="n">th</span><span class="o">&gt;</span>      <span class="o">&lt;</span><span class="n">td</span><span class="o">&gt;</span><span class="mi">600</span><span class="o">&lt;/</span><span class="n">td</span><span class="o">&gt;</span>      <span class="o">&lt;</span><span class="n">td</span><span class="o">&gt;</span><span class="mi">3</span><span class="o">&lt;/</span><span class="n">td</span><span class="o">&gt;</span>      <span class="o">&lt;</span><span class="n">td</span><span class="o">&gt;</span><span class="mf">6302.63</span><span class="o">&lt;/</span><span class="n">td</span><span class="o">&gt;</span>      <span class="o">&lt;</span><span class="n">td</span><span class="o">&gt;</span><span class="mf">6203.6</span><span class="o">&lt;/</span><span class="n">td</span><span class="o">&gt;</span>    <span class="o">&lt;/</span><span class="n">tr</span><span class="o">&gt;</span>    <span class="o">&lt;</span><span class="n">tr</span><span class="o">&gt;</span>      <span class="o">&lt;</span><span class="n">th</span><span class="o">&gt;</span><span class="mi">3</span><span class="o">&lt;/</span><span class="n">th</span><span class="o">&gt;</span>      <span class="o">&lt;</span><span class="n">td</span><span class="o">&gt;</span><span class="mi">700</span><span class="o">&lt;/</span><span class="n">td</span><span class="o">&gt;</span>      <span class="o">&lt;</span><span class="n">td</span><span class="o">&gt;</span><span class="mi">1</span><span class="o">&lt;/</span><span class="n">td</span><span class="o">&gt;</span>      <span class="o">&lt;</span><span class="n">td</span><span class="o">&gt;</span><span class="mf">7300.91</span><span class="o">&lt;/</span><span class="n">td</span><span class="o">&gt;</span>      <span class="o">&lt;</span><span class="n">td</span><span class="o">&gt;</span><span class="mf">7201.2</span><span class="o">&lt;/</span><span class="n">td</span><span class="o">&gt;</span>    <span class="o">&lt;/</span><span class="n">tr</span><span class="o">&gt;</span>    <span class="o">&lt;</span><span class="n">tr</span><span class="o">&gt;</span>      <span class="o">&lt;</span><span class="n">th</span><span class="o">&gt;</span><span class="mi">4</span><span class="o">&lt;/</span><span class="n">th</span><span class="o">&gt;</span>      <span class="o">&lt;</span><span class="n">td</span><span class="o">&gt;</span><span class="mi">800</span><span class="o">&lt;/</span><span class="n">td</span><span class="o">&gt;</span>      <span class="o">&lt;</span><span class="n">td</span><span class="o">&gt;</span><span class="mi">1</span><span class="o">&lt;/</span><span class="n">td</span><span class="o">&gt;</span>      <span class="o">&lt;</span><span class="n">td</span><span class="o">&gt;</span><span class="mf">8301.07</span><span class="o">&lt;/</span><span class="n">td</span><span class="o">&gt;</span>      <span class="o">&lt;</span><span class="n">td</span><span class="o">&gt;</span><span class="mf">8201.2</span><span class="o">&lt;/</span><span class="n">td</span><span class="o">&gt;</span>    <span class="o">&lt;/</span><span class="n">tr</span><span class="o">&gt;</span>    <span class="o">&lt;</span><span class="n">tr</span><span class="o">&gt;</span>      <span class="o">&lt;</span><span class="n">th</span><span class="o">&gt;</span><span class="mi">5</span><span class="o">&lt;/</span><span class="n">th</span><span class="o">&gt;</span>      <span class="o">&lt;</span><span class="n">td</span><span class="o">&gt;</span><span class="mi">900</span><span class="o">&lt;/</span><span class="n">td</span><span class="o">&gt;</span>      <span class="o">&lt;</span><span class="n">td</span><span class="o">&gt;</span><span class="mi">3</span><span class="o">&lt;/</span><span class="n">td</span><span class="o">&gt;</span>      <span class="o">&lt;</span><span class="n">td</span><span class="o">&gt;</span><span class="mf">9303.85</span><span class="o">&lt;/</span><span class="n">td</span><span class="o">&gt;</span>      <span class="o">&lt;</span><span class="n">td</span><span class="o">&gt;</span><span class="mf">9203.6</span><span class="o">&lt;/</span><span class="n">td</span><span class="o">&gt;</span>    <span class="o">&lt;/</span><span class="n">tr</span><span class="o">&gt;</span>    <span class="o">&lt;</span><span class="n">tr</span><span class="o">&gt;</span>      <span class="o">&lt;</span><span class="n">th</span><span class="o">&gt;</span><span class="mi">6</span><span class="o">&lt;/</span><span class="n">th</span><span class="o">&gt;</span>      <span class="o">&lt;</span><span class="n">td</span><span class="o">&gt;</span><span class="mi">1000</span><span class="o">&lt;/</span><span class="n">td</span><span class="o">&gt;</span>      <span class="o">&lt;</span><span class="n">td</span><span class="o">&gt;</span><span class="mi">2</span><span class="o">&lt;/</span><span class="n">td</span><span class="o">&gt;</span>      <span class="o">&lt;</span><span class="n">td</span><span class="o">&gt;</span><span class="mf">10302.35</span><span class="o">&lt;/</span><span class="n">td</span><span class="o">&gt;</span>      <span class="o">&lt;</span><span class="n">td</span><span class="o">&gt;</span><span class="mf">10202.4</span><span class="o">&lt;/</span><span class="n">td</span><span class="o">&gt;</span>    <span class="o">&lt;/</span><span class="n">tr</span><span class="o">&gt;</span>  <span class="o">&lt;/</span><span class="n">tbody</span><span class="o">&gt;&lt;/</span><span class="n">table</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<div class="nbinput docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[21]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
+<span></span><span class="p">(</span><span class="mf">4300.76</span><span class="o">-</span><span class="mf">4201.2</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="p">(</span><span class="mf">5301.01</span> <span class="o">-</span> <span class="mf">5201.2</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span>
+</pre></div>
+</div>
+</div>
+<div class="nboutput nblast docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[21]:
+</pre></div>
+</div>
+<div class="output_area docutils container">
+<div class="highlight"><pre>
+9912.19360000008
+</pre></div></div>
+</div>
+<div class="nbinput nblast docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[27]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
+<span></span><span class="n">arrests</span><span class="p">[</span><span class="s1">&#39;predictions&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">arrests</span><span class="p">[</span><span class="s1">&#39;pd_desc&#39;</span><span class="p">]</span> <span class="o">+</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">20</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="nbinput docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[30]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
+<span></span><span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">((</span><span class="n">arrests</span><span class="p">[</span><span class="s1">&#39;pd_desc&#39;</span><span class="p">]</span> <span class="o">-</span> <span class="n">arrests</span><span class="p">[</span><span class="s1">&#39;predictions&#39;</span><span class="p">])</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="nboutput nblast docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[30]:
+</pre></div>
+</div>
+<div class="output_area docutils container">
+<div class="highlight"><pre>
+157.0
+</pre></div></div>
+</div>
+<div class="nbinput docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[31]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
+<span></span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">157</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="nboutput nblast docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[31]:
+</pre></div>
+</div>
+<div class="output_area docutils container">
+<div class="highlight"><pre>
+12.529964086141668
+</pre></div></div>
+</div>
+<div class="nbinput nblast docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[ ]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
+<span></span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="Problem:-Area-under-a-curve.">
+<h2>Problem: Area under a curve.<a class="headerlink" href="#Problem:-Area-under-a-curve." title="Permalink to this headline">¶</a></h2>
+<p>Evaluate the definite integrals below and represent the solution visually as the area under the curve <span class="math notranslate nohighlight">\(f(x)\)</span>.</p>
+<ol class="loweralpha simple">
+<li><p><span class="math notranslate nohighlight">\(\int_{1}^3 x^3 - \frac{1}{x} dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\int_{\pi}^{4\pi} 2 \cos(x) dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\int_4^9 1.04(5)^x dx\)</span></p></li>
+</ol>
+<div class="nbinput nblast docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[32]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
+<span></span><span class="kn">from</span> <span class="nn">scipy.integrate</span> <span class="k">import</span> <span class="n">quad</span>
+</pre></div>
+</div>
+</div>
+<div class="nbinput nblast docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[37]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
+<span></span><span class="k">def</span> <span class="nf">f</span><span class="p">(</span><span class="n">x</span><span class="p">):</span> <span class="k">return</span> <span class="n">x</span><span class="o">**</span><span class="mi">3</span> <span class="o">-</span> <span class="mi">1</span><span class="o">/</span><span class="n">x</span>
+<span class="k">def</span> <span class="nf">g</span><span class="p">(</span><span class="n">x</span><span class="p">):</span> <span class="k">return</span> <span class="mi">2</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">cos</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">h</span><span class="p">(</span><span class="n">x</span><span class="p">):</span> <span class="k">return</span> <span class="mf">1.04</span><span class="o">*</span><span class="mi">5</span><span class="o">**</span><span class="n">x</span>
+</pre></div>
+</div>
+</div>
+<div class="nbinput docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[34]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
+<span></span><span class="n">quad</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="nboutput nblast docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[34]:
+</pre></div>
+</div>
+<div class="output_area docutils container">
+<div class="highlight"><pre>
+(18.90138771133189, 2.0984755834487654e-13)
+</pre></div></div>
+</div>
+<div class="nbinput docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[36]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
+<span></span><span class="n">quad</span><span class="p">(</span><span class="n">g</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="p">,</span> <span class="mi">4</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="nboutput nblast docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[36]:
+</pre></div>
+</div>
+<div class="output_area docutils container">
+<div class="highlight"><pre>
+(-1.5809616649023117e-15, 1.306472773737261e-13)
+</pre></div></div>
+</div>
+<div class="nbinput docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[38]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
+<span></span><span class="n">quad</span><span class="p">(</span><span class="n">h</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">9</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="nboutput nblast docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[38]:
+</pre></div>
+</div>
+<div class="output_area docutils container">
+<div class="highlight"><pre>
+(1261682.718116748, 1.4007492034248646e-08)
+</pre></div></div>
+</div>
+</div>
+<div class="section" id="Problem:-Area-between-curves">
+<h2>Problem: Area between curves<a class="headerlink" href="#Problem:-Area-between-curves" title="Permalink to this headline">¶</a></h2>
+<p>Given the functions:</p>
+<div class="math notranslate nohighlight">
+\[f(x) = 1 + x + e^{x^2 - 2x} \quad g(x) = x^4 - 6.5x^2 + 6x + 2\]</div>
+<p>define the regions R and S shown below.</p>
+<center></center><ol class="arabic simple">
+<li><p>Prove that the lines intersect at <span class="math notranslate nohighlight">\(x = 1\)</span>.</p></li>
+<li><p>Set up definite integrals to represent the areas <span class="math notranslate nohighlight">\(R\)</span> and <span class="math notranslate nohighlight">\(S\)</span></p></li>
+<li><p>Evaluate the integrals using technology.</p></li>
+</ol>
+<div class="nbinput nblast docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[ ]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
+<span></span>
+</pre></div>
+</div>
+</div>
+<div class="nbinput nblast docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[ ]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
+<span></span>
+</pre></div>
+</div>
+</div>
+<div class="nbinput nblast docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[ ]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
+<span></span>
+</pre></div>
+</div>
+</div>
+<div class="nbinput nblast docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[ ]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
+<span></span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="Problem:-Volumes-and-Revolution">
+<h2>Problem: Volumes and Revolution<a class="headerlink" href="#Problem:-Volumes-and-Revolution" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li><p>Find the volume of the solid generated by rotating the region bounded by <span class="math notranslate nohighlight">\(y = x\)</span>, <span class="math notranslate nohighlight">\(x = 0\)</span>, and <span class="math notranslate nohighlight">\(y = (x-1)^2 + 1\)</span>. Sketch an image of this region or try to use Python to visualize.</p></li>
+<li><p>Find the volume of the solid formed by rotating the region R from previous problem about the <span class="math notranslate nohighlight">\(x\)</span>-axis. Sketch an image of this region.</p></li>
+</ol>
+<div class="nbinput nblast docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[ ]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
+<span></span>
+</pre></div>
+</div>
+</div>
+<div class="nbinput nblast docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[ ]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
+<span></span>
+</pre></div>
+</div>
+</div>
+<div class="nbinput nblast docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[ ]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
+<span></span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="Problem:-Gini-Index">
+<h2>Problem: Gini Index<a class="headerlink" href="#Problem:-Gini-Index" title="Permalink to this headline">¶</a></h2>
+<p>The World Bank provides access to data about world GINI Indicies <a class="reference external" href="https://data.worldbank.org/indicator/SI.POV.GINI?end=2017&amp;start=1985">here</a>. Take a look around at a country of your choice. What does the GINI Index say about this country?</p>
+<p>The United States Census gathers and provides data related to Income and Poverty in the United States. Visit their site <a class="reference external" href="https://www.census.gov/library/publications/2019/demo/p60-266.html">here</a>, and explore the data available. Download one data table and discuss the information your found and what it says about income and poverty in the United States.</p>
+<div class="nbinput nblast docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[ ]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
+<span></span><span class="c1"># def c(x, y): return 10*x + 1.2*y + 200</span>
+
+<span class="c1"># x = np.arange(400, 1100, 100)</span>
+
+<span class="c1"># y = np.random.randint(1, 4, 7)</span>
+
+<span class="c1"># zhat = np.round(c(x, y), 2)</span>
+
+<span class="c1"># z = zhat + np.round(np.random.normal(100, size = 7), 2)</span>
+
+<span class="c1"># df = pd.DataFrame({&#39;square footage&#39;: x, &#39;bedrooms&#39;: y, &#39;real_cost&#39;: z, &#39;predicted_cost&#39;: zhat})</span>
+<span class="c1"># df.to_html()</span>
+</pre></div>
+</div>
+</div>
+<div class="nbinput nblast docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[ ]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
+<span></span><span class="c1"># def f(x): return 1 + x + np.e**(x**2 - 2*x)</span>
+<span class="c1"># def g(x): return x**4 - 6.5*x**2 + 6*x + 2</span>
+<span class="c1"># x = np.linspace(0, 2, 1000)</span>
+<span class="c1"># plt.plot(x, f(x), label = &#39;$f(x)$&#39;)</span>
+<span class="c1"># plt.plot(x, g(x), label = &#39;$g(x)$&#39;)</span>
+<span class="c1"># plt.legend()</span>
+<span class="c1"># plt.fill_between(x, f(x), g(x), color = &#39;grey&#39;, alpha = 0.1)</span>
+<span class="c1"># plt.text(0.4, 2.5, &#39;R&#39;, fontsize = 30)</span>
+<span class="c1"># plt.text(1.4, 2.2, &#39;S&#39;, fontsize = 30)</span>
+<span class="c1"># plt.savefig(&#39;images/a4p4.png&#39;)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../index.html">Calculus with a Computer</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="01_calculus.html">Problem Set I</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, Jacob Frias Koehler, PhD.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.2.0</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../_sources/notebooks/10_assignment_4.ipynb.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
