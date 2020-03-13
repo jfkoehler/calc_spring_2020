@@ -11,29 +11,29 @@ Welcome to Calculus with a Computer's documentation!
    :caption: Contents:
 
    notebooks/01_calculus
-    notebooks/02_day2_inclass
-    notebooks/03_day3_inclass
+   notebooks/02_day2_inclass
+   notebooks/03_day3_inclass
     
-    notebooks/05_reimann
-    notebooks/06_riemann_accumulation
+   notebooks/05_reimann
+   notebooks/06_riemann_accumulation
     
-    notebooks/08_more_with_integrals
-    notebooks/09_calc_Gini_Index
+   notebooks/08_more_with_integrals
+   notebooks/09_calc_Gini_Index
     
-    notebooks/13_Intro_to_Differentiation
-    notebooks/14_string_art
-    notebooks/15_relating_ddf
-    notebooks/16_calc_optimization_extended
-    notebooks/syllabus
+   notebooks/13_Intro_to_Differentiation
+   notebooks/14_string_art
+   notebooks/15_relating_ddf
+   notebooks/16_calc_optimization_extended
+   notebooks/syllabus
 
-    :caption: Assignments:
-    
-    notebooks/04_assignment_2
-    notebooks/07_hw3
-    notebooks/10_assignment_4
-    notebooks/11_extra_review
-    notebooks/12_exam_I
-    notebooks/16_assignment_5
+   :caption: Assignments:
+
+   notebooks/04_assignment_2
+   notebooks/07_hw3
+   notebooks/10_assignment_4
+   notebooks/11_extra_review
+   notebooks/12_exam_I
+   notebooks/16_assignment_5
 
 
 Indices and tables
