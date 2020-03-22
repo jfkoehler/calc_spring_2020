@@ -1,3 +1,20 @@
+# Calculus with Python
+
+This repository houses my materials for teaching Calculus.  There are a few important versions:
+
+- **Jupyter Notebooks**: You can download or clone the repository and access all the notebooks and datasets.  These are located in the source directory [here](source/notebooks).
+- **Google Colab**: In each notebook there is a google colab badge that you can click to open the notebook in google colaboratory.  
+- **Presentation Slides on nbviewer**: 
+
+
+
+
+
+
+
+
+
+
 # Calculus: LMTH 2040
 
 
