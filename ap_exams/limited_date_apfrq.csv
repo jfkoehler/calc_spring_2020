@@ -1,0 +1,512 @@
+,Year,Number,Function Presentation,Function Type,General Topics,Course Description Topics,Part,Calculator
+0,2010,AB1 BC1,analytic,exponential,total change given rate of change,integral of a rate of change to give accumulated change,(a) (c) (d),active
+1,2010,AB1 BC1,,,related rates,related rates,(b),
+2,2010,AB1 BC1,,,integration methods,antiderivatives following directly from derivatives of basic funcions,(c) ,
+3,2010,AB1 BC1,,,anti-differentiation (initial conditions),finding specific antiderivatives using initial conditions,(c) ,
+4,2010,AB2 BC2,tabular,general,"derivative, definition",approximate rate of change from graphs and tables of values,(a) ,active
+5,2010,AB2 BC2,,,trapezoidal approximation,computation of trapezoidal sum,(a),
+6,2010,AB2 BC2,,,definite integral,interpretation of definite integrals,(b),
+7,2010,AB2 BC2,,,average value,average value of a function,(b),
+8,2010,AB2 BC2,,,total change given rate of change,integral of a rate of change to give accumulated change,(c) ,
+9,2010,AB2 BC2,,,"maximum, minimum",absolute extrema,(d),
+10,2010,AB3,graphical,general,total change given rate of change,integral of a rate of change to give accumulated change,(a) (e),neutral
+11,2010,AB3,,,area,area of a region,(a),
+12,2010,AB3,,,differentiation,relationship between the increasing and decreasing behavior of f and the sign of f',(b),
+13,2010,AB3,,,"maximum, minimum",absolute extrema,(c) ,
+14,2010,AB4 BC4,analytic,algebraic,area,area of a region,(a),closed
+15,2010,AB4 BC4,,,integration methods,antiderivatives following directly from derivatives of basic funcions,(a),
+16,2010,AB4 BC4,,,fundamental theorem,use of the Fundamental Theorem to evaluate definite integrals,(a),
+17,2010,AB4 BC4,,,volume,volume of a solid of revolution,(b),
+18,2010,AB4 BC4,,,volume-slicing,volume of a solid with known cross section,(c) ,
+19,2010,AB5,graphical,general,fundamental theorem,analysis of a function defined by a definite integral using the Fundamental Theorem,(a) (b) (c) ,closed
+20,2010,AB5,,,area,area of a region,(a),
+21,2010,AB5,,,points of inflection,point of inflection,(b),
+22,2010,AB5,,,"maximum, minimum",local extrema,(c) ,
+23,2010,AB5,,,differentiation,derivative of basic functions,(c),
+24,2010,AB6,analytic,algebraic,tangents,tangent line to a curve at a point,(a),closed
+25,2010,AB6,,,tangents,local linear approximation,(b),
+26,2010,AB6,,,differential equations,solving separable differential equations,(c),
+27,2010,BC3,analytic,exponential,parametric equations,analysis of planar curve given in parametric form,(a) (b) (c) (d) ,active
+28,2010,BC3,,,total change given rate of change,integral of a rate of change to give accumulated change,(d),
+29,2010,BC3,,,vectors,speed,(a),
+30,2010,BC3,,,arc length,length of a curve given in parametric form,(b),
+31,2010,BC3,,,tangents,slope of a curve at a point,(d),
+32,2010,BC3,,,differentiation,interpretation of derivative as a rate of change,(c),
+33,2010,BC5,analytic,algebraic,Euler's method,Euler's method,(a),closed
+34,2010,BC5,,,limits,calculating limits using l'Hopital's Rule,(b),
+35,2010,BC5,,,differential equations,solving separable differential equations,(c),
+36,2010,BC5,,,integration methods,antiderivatives following directly from derivatives of basic funcions,(c),
+37,2010,BC5,,,integration methods,antiderivatives by substitution,(c),
+38,2010,BC6,analytic,trigonometric,series,Maclaurin series for cos(x),(a),closed
+39,2010,BC6,,,series,manipulation of Taylor series to form new series from known series,(a),
+40,2010,BC6,,,"maximum, minimum",local extrema,(b),
+41,2010,BC6,,,series,manipulation of Taylor series to form new series from known series,(c),
+42,2010,BC6,,,series,Taylor polynomial approximation,(d),
+43,2010,BC6,,,series,alternating series with error bound,(d),
+86,2009,AB1 BC1,graphical,trigonometric,motion on a line,particle motion on a line,(a) (b) (c) (d) ,neutral
+87,2009,AB1 BC1,,,differentiation,"interpretation of derivative in context of velocity, speed, and acceleration",(a) (b) (c) (d) ,
+88,2009,AB1 BC1,,,distance,distance traveled by a particle along a line,(b) (d),
+89,2009,AB2 BC2,analytic,algebraic,total change given rate of change,integral of a rate of change to give accumulated change,(a) (c) ,active
+90,2009,AB2 BC2,,,"maximum, minimum",absolute extrema,(b),
+91,2009,AB2 BC2,,,fundamental theorem,use of the Fundamental Theorem to evaluate definite integrals,,
+92,2009,AB2 BC2,,,average value,average value of a function,(d),
+93,2009,AB3,verbal,algebraic,total change given rate of change,integral of a rate of change to give accumulated change,(a) (b) (c),active
+94,2009,AB3,,,definite integral,basic properties of definite integrals,(b),
+95,2009,AB3,,,fundamental theorem,analysis of a function defined by a definite integral using the Fundamental Theorem,(d),
+96,2009,AB3,,,fundamental theorem,absolute extrema,(d),
+97,2009,AB4,analytic,trigonometric,area,area of a region,(a),closed
+98,2009,AB4,,,integration methods,antiderivatives following directly from derivatives of basic funcions,(a) (b),
+99,2009,AB4,,,integration methods,antiderivatives by substitution,(b),
+100,2009,AB4,,,fundamental theorem,use of the Fundamental Theorem to evaluate definite integrals,(a) (b),
+101,2009,AB4,,,volume,volume of a solid of revolution,(b),
+102,2009,AB4,,,volume-slicing,volume of a solid with known cross section,(c),
+103,2009,AB5 BC5,tabular,general,"derivative, definition",approximate rate of change from graphs and tables of values,(a),neutral
+104,2009,AB5 BC5,,,fundamental theorem,use of the Fundamental Theorem to evaluate definite integrals,(b),
+105,2009,AB5 BC5,,,Riemann sums,computation of left Riemann Sum,(c),
+106,2009,AB5 BC5,,,tangents,tangent line to a curve at a point,(d),
+107,2009,AB5 BC5,,,tangents,local linear approximation,(d),
+108,2009,AB5 BC5,,,tangents,tangent line and concavity,(d),
+109,2009,AB5 BC5,,,secant line,secant line and concavity,(d),
+110,2009,AB6,analytic,exponential,points of inflection,point of inflection,(a),closed
+111,2009,AB6,,,total change given rate of change,integral of a rate of change to give accumulated change,(b),
+112,2009,AB6,,,fundamental theorem,analysis of a function defined by a definite integral using the Fundamental Theorem,(c),
+113,2009,AB6,,,"maximum, minimum",absolute extrema,(c),
+114,2009,BC3,analytic,algebraic,parametric equations,analysis of planar curve given in parametric form,(a) (b) (c) (d) ,active
+115,2009,BC3,,,"maximum, minimum",absolute extrema,(a),
+116,2009,BC3,,,anti-differentiation (initial conditions),finding specific antiderivatives using initial conditions,(a) ,
+117,2009,BC3,,,total change given rate of change,integral of a rate of change to give accumulated change,(a) (b),
+118,2009,BC3,,,arc length,length of a curve given in parametric form,(c),
+119,2009,BC3,,,tangents,tangent line to a curve at a point,(d),
+120,2009,BC3,,,differentiation,chain rule,(d),
+121,2009,BC4,analytic,algebraic,differential equations,solution of a differential equation,(a) (c),closed
+122,2009,BC4,,,Euler's method,Euler's method,(a),
+123,2009,BC4,,,series,Taylor polynomial approximation,(b),
+124,2009,BC6,analytic,exponential,series,manipulation of Taylor series to form new series from known series,(a) (b),closed
+125,2009,BC6,,,interval/convergence,interval of convergence of power series,(c),
+126,2009,BC6,,,limits,calculating limits using algebra,(c),
+127,2009,BC6,,,points of inflection,point of inflection,(d),
+178,2008,AB1 BC1,analytic,trigonometric,area,area of a region,(a) (b),active
+179,2008,AB1 BC1,,algebraic,volume-slicing,volume of a solid with known cross section,(c) (d),
+180,2008,AB2 BC2,tabular,general,"derivative, definition",approximate rate of change from graphs and tables of values,(a),active
+181,2008,AB2 BC2,,,average value,average value of a function,(b),
+182,2008,AB2 BC2,,,trapezoidal approximation,computation of trapezoidal sum,(b),
+183,2008,AB2 BC2,,,continuity,Intermediate Value Theorem,(c),
+184,2008,AB2 BC2,,,Mean value theorem,Mean Value Theorem,(c),
+185,2008,AB2 BC2,analytic,exponential,total change given rate of change,integral of a rate of change to give accumulated change,(d),
+186,2008,AB3,analytic,algebraic,related rates,related rates,(a),active
+187,2008,AB3,,,"maximum, minimum",absolute extrema,(b),
+188,2008,AB3,,,total change given rate of change,integral of a rate of change to give accumulated change,(c),
+189,2008,AB4 BC4,graphical,general,motion on a line,particle motion on a line,(a) (b) (c) (d),closed
+190,2008,AB4 BC4,,,differentiation,"interpretation of derivative in context of velocity, speed, and acceleration",(a) (c) (d),
+191,2008,AB4 BC4,,,"maximum, minimum",absolute extrema,(a),
+192,2008,AB4 BC4,,,total change given rate of change,integral of a rate of change to give accumulated change,(a),
+193,2008,AB4 BC4,,,definite integral,basic properties of definite integrals,(a),
+194,2008,AB4 BC4,,,continuity,Intermediate Value Theorem,(b),
+195,2008,AB4 BC4,,,differentiation,relationship between the increasing and decreasing behavior of f and the sign of f',(c) (d),
+196,2008,AB5,analytic,algebraic,slope fields,slope fields,(a),closed
+197,2008,AB5,,,differential equations,solving separable differential equations,(b),
+198,2008,AB5,,,limits,limits of functions,(c),
+199,2008,AB6,analytic,logarithmic,tangents,tangent line to a curve at a point,(a),closed
+200,2008,AB6,,,"maximum, minimum",local extrema,(b),
+201,2008,AB6,,,points of inflection,point of inflection,(c),
+202,2008,AB6,,,differentiation,derivative of a quotient,(c),
+203,2008,AB6,,,limits,limits of functions,(d),
+204,2008,BC3,tabular,general,series,Taylor polynomial approximation,(a) (b),active
+205,2008,BC3,,,series,Lagrange error bound,(c),
+206,2008,BC5,analytic,algebraic,"maximum, minimum",local extrema,(a),closed
+207,2008,BC5,,,differentiation,relationship between the increasing and decreasing behavior of f and the sign of f',(b),
+208,2008,BC5,,,differentiation,derivative of a product,(b),
+209,2008,BC5,,,concavity,relationship between the concavity of f and the sign of f'',(b),
+210,2008,BC5,,,integration methods,antiderivatives by parts,(c),
+211,2008,BC6,analytic,algebraic,slope fields,relationship between slope fields and solution curves for differential equations,(a),closed
+212,2008,BC6,,,Euler's method,Euler's method,(b),
+213,2008,BC6,,,"differentiation, implicit",implicit differentiation,(c),
+214,2008,BC6,,,series,Taylor polynomial approximation,(c),
+248,2007,BC6,,,series,alternating series with error bound,(d),
+249,2007,AB1 BC1,analytic,algebraic,area,area of a region,(a),active
+250,2007,AB1 BC1,,,volume,volume of a solid of revolution,(b),
+251,2007,AB1 BC1,,,volume-slicing,volume of a solid with known cross section,(c),
+252,2007,AB2 BC2,analytic,trigonometric,total change given rate of change,integral of a rate of change to give accumulated change,(a) (c),active
+253,2007,AB2 BC2,graphical,,differentiation,relationship between the increasing and decreasing behavior of f and the sign of f',(b),
+254,2007,AB2 BC2,verbal,,"maximum, minimum",absolute extrema,(c),
+255,2007,AB3,tabular,general,continuity,Intermediate Value Theorem,(a),neutral
+256,2007,AB3,,,Mean value theorem,Mean Value Theorem,(b),
+257,2007,AB3,,,fundamental theorem,analysis of a function defined by a definite integral using the Fundamental Theorem,(c),
+258,2007,AB3,,,differentiation,chain rule,(b) (c),
+259,2007,AB3,,,differentiation,derivative of the inverse of a function,(d),
+260,2007,AB4,analytic,trigonometric,"maximum, minimum",absolute extrema,(a),closed
+261,2007,AB4,,,differentiation,derivative of a product,(a) (b),
+262,2007,AB4,,,differentiation,chain rule,(a) (b),
+263,2007,AB4,,,differential equations,solution of a differential equation,(b),
+264,2007,AB5 BC5,tabular,general,tangents,local linear approximation,(a),closed
+265,2007,AB5 BC5,verbal,,tangents,tangent line and concavity,(a),
+266,2007,AB5 BC5,,,related rates,related rates,(b),
+267,2007,AB5 BC5,,,Riemann sums,computation of right Riemann Sum,(c),
+268,2007,AB5 BC5,,,definite integral,interpretation of definite integrals,(c),
+269,2007,AB6,analytic,logarithmic,differentiation,derivative of basic functions,(a),closed
+270,2007,AB6,,,"maximum, minimum",local extrema,(b),
+271,2007,AB6,,,points of inflection,point of inflection,(c),
+272,2007,BC3,analytic,trigonometric,polar coordinates,polar curves,(a) (b) (c),active
+273,2007,BC3,,,area,area of a region bounded by a polar curve,(a),
+274,2007,BC3,,,differentiation,interpretation of derivative as a rate of change,(b) (c),
+275,2007,BC4,analytic,logarithmic,tangents,tangent line to a curve at a point,(a),closed
+276,2007,BC4,,,concavity,relationship between the concavity of f and the sign of f'',(b),
+277,2007,BC4,,,integration methods,antiderivatives by parts,(c),
+278,2007,BC4,,,anti-differentiation (initial conditions),finding specific antiderivatives using initial conditions,(c),
+279,2007,BC6,analytic,exponential,series,Maclaurin series for e^x,(a),closed
+280,2007,BC6,,,limits,limits of functions,(b),
+281,2007,BC6,,,series,manipulation of series by antidifferentiation,(c),
+318,2006,BC6,,,series,manipulation of series by differentiation,(c),
+319,2006,AB1 BC1,analytic,logarithmic,area,area of a region,(a),active
+320,2006,AB1 BC1,,algebraic,volume,volume of a solid of revolution,(b) (c),
+321,2006,AB2 BC2,analytic,trigonometric,total change given rate of change,integral of a rate of change to give accumulated change,(a) (c),active
+322,2006,AB2 BC2,,,average value,average value of a function,,
+323,2006,AB3,graphical,general,fundamental theorem,analysis of a function defined by a definite integral using the Fundamental Theorem,(a) (c),neutral
+324,2006,AB3,,,"maximum, minimum",local extrema,(b),
+325,2006,AB3,,,periodicity,periodic functions,(c),
+326,2006,AB3,,,tangents,tangent line to a curve at a point,(c),
+327,2006,AB4 BC4,tabular,general,average rate of change,average rate of change,(a),closed
+328,2006,AB4 BC4,,,differentiation,"interpretation of derivative in context of velocity, speed, and acceleration",(a) (b) (c),
+329,2006,AB4 BC4,,,definite integral,interpretation of definite integrals,(b),
+330,2006,AB4 BC4,,,Riemann sums,computation of midpoint Riemann Sum,(b),
+331,2006,AB4 BC4,,,anti-differentiation (initial conditions),finding specific antiderivatives using initial conditions,(c),
+332,2006,AB5,analytic,algebraic,slope fields,slope fields,(a),closed
+333,2006,AB5,,,differential equations,solving separable differential equations,(b),
+334,2006,AB5,,,differential equations,domain of a function,(b),
+335,2006,AB6,analytic,general,differentiation,derivative of basic functions,(a) (b),closed
+336,2006,AB6,,,differentiation,chain rule,(a) (b),
+337,2006,AB6,,,differentiation,derivative of a product,(b),
+338,2006,AB6,,,tangents,tangent line to a curve at a point,(b),
+339,2006,BC3,analytic,trigonometric,parametric equations,analysis of planar curve given in parametric form,(a) (b) (d) (d),active
+340,2006,BC3,analytic,algebraic,vectors,acceleration vector,(a),
+341,2006,BC3,,,vectors,speed,(a),
+342,2006,BC3,,,tangents,vertical tangents,(b),
+343,2006,BC3,,,tangents,tangent line to a curve at a point,(c),
+344,2006,BC3,,,improper integrals,improper integrals,(d),
+345,2006,BC3,,,limits,describing asymptotic behavior in terms of limits at infinity,(d),
+346,2006,BC3,,,total change given rate of change,integral of a rate of change to give accumulated change,(d),
+347,2006,BC5,analytic,algebraic,differentiation,implicit differentiation,(a),closed
+348,2006,BC5,,,tangents,tangent line to a curve at a point,(b),
+349,2006,BC5,,,series,Taylor polynomial approximation,(c),
+350,2006,BC5,,,Euler's method,Euler's method,(d),
+351,2006,BC6,analytic,algebraic,series,function defined by power series,(a) (b),closed
+352,2006,BC6,,,interval/convergence,interval of convergence of power series,(a),
+389,2005,BC6,,,series,alternating series with error bound,(d),
+390,2005,AB1 BC1,analytic,trigonometric,area,area of a region,(a) (b),active
+391,2005,AB1 BC1,,exponential,volume,volume of a solid of revolution,(c),
+392,2005,AB2,analytic,trigonometric,total change given rate of change,integral of a rate of change to give accumulated change,(a) (b) (d),active
+393,2005,AB2,verbal,algebraic,differentiation,interpretation of derivative as a rate of change,(c),
+394,2005,AB2,,,"maximum, minimum",absolute extrema,(d),
+395,2005,AB3 BC3,tabular,general,"derivative, definition",approximate rate of change from graphs and tables of values,(a),neutral
+396,2005,AB3 BC3,,,average value,average value of a function,(b),
+397,2005,AB3 BC3,,,trapezoidal approximation,computation of trapezoidal sum,(b),
+398,2005,AB3 BC3,,,fundamental theorem,use of the Fundamental Theorem to evaluate definite integrals,(c),
+399,2005,AB3 BC3,,,total change given rate of change,integral of a rate of change to give accumulated change,(c),
+400,2005,AB3 BC3,,,Mean value theorem,Mean Value Theorem,(d),
+401,2005,AB3 BC3,,,concavity,relationship between the increasing and decreasing behavior of f and the sign of f',(d),
+402,2005,AB4,tabular,general,"maximum, minimum",local extrema,(a) (c),closed
+403,2005,AB4,,,curve sketching,curve sketching,(b),
+404,2005,AB4,,,fundamental theorem,analysis of a function defined by a definite integral using the Fundamental Theorem,(c) (d),
+405,2005,AB4,,,points of inflection,point of inflection,(d),
+406,2005,AB5 BC5,graphical,general,motion on a line,particle motion on a line,(a) (b) (c),closed
+407,2005,AB5 BC5,,,differentiation,"interpretation of derivative in context of velocity, speed, and acceleration",(a) (b) (c),
+408,2005,AB5 BC5,,,area,area of a region,(a),
+409,2005,AB5 BC5,,,total change given rate of change,integral of a rate of change to give accumulated change,(a),
+410,2005,AB5 BC5,,,differentiability,differentiability,(b),
+411,2005,AB5 BC5,,,"derivative, definition",slope of a curve at a point,(b),
+412,2005,AB5 BC5,,,differentiation,derivative of basic functions,(c),
+413,2005,AB5 BC5,,,average rate of change,average rate of change,(d),
+414,2005,AB5 BC5,,,Mean value theorem,Mean Value Theorem,(d),
+415,2005,AB6,analytic,algebraic,slope fields,slope fields,(a),closed
+416,2005,AB6,,,tangents,tangent line to a curve at a point,(b),
+417,2005,AB6,,,tangents,local linear approximation,(b),
+418,2005,AB6,,,differential equations,solving separable differential equations,(c),
+419,2005,BC2,analytic,trigonometric,polar coordinates,polar curves,(a) (b) (c) (d),active
+420,2005,BC2,,,area,area of a region bounded by a polar curve,(a),
+421,2005,BC2,,,differentiation,interpretation of derivative as a rate of change,(c),
+422,2005,BC2,,,"maximum, minimum",absolute extrema,(d),
+423,2005,BC4,analytic,algebraic,slope fields,slope fields,(a),closed
+424,2005,BC4,,,"maximum, minimum",local extrema,(b),
+425,2005,BC4,,,Euler's method,Euler's method,(c),
+426,2005,BC4,,,"differentiation, implicit",implicit differentiation,(d),
+427,2005,BC4,,,tangents,local linear approximation,(d),
+428,2005,BC6,analytic,general,series,Taylor polynomial approximation,(a),closed
+429,2005,BC6,,,series,Taylor series,(b),
+460,2004,BC6,,,improper integrals,improper integrals,(c),
+461,2004,AB1 BC1,analytic,trigonometric,total change given rate of change,integral of a rate of change to give accumulated change,(a),active
+462,2004,AB1 BC1,verbal,,differentiation,interpretation of derivative as a rate of change,(b),
+463,2004,AB1 BC1,,,average value,average value of a function,(c),
+464,2004,AB1 BC1,,,average rate of change,average rate of change,(d),
+465,2004,AB2 BC2,analytic,algebraic,area,area of a region,(a),active
+466,2004,AB2 BC2,,,volume,volume of a solid of revolution,(b),
+467,2004,AB2 BC2,,,volume-slicing,volume of a solid with known cross section,(c),
+468,2004,AB3,analytic,exponential,motion on a line,particle motion on a line,(a) (b) (c) (d),active
+469,2004,AB3,,trigonometric,differentiation,"interpretation of derivative in context of velocity, speed, and acceleration",(a) (b) (d),
+470,2004,AB3,,,"maximum, minimum",absolute extrema,(c),
+471,2004,AB3,,,total change given rate of change,integral of a rate of change to give accumulated change,(d),
+472,2004,AB4 BC4,analytic,algebraic,"differentiation, implicit",implicit differentiation,(a) (c),closed
+473,2004,AB4 BC4,,,differentiation,derivative of basic functions,(b),
+474,2004,AB4 BC4,,,differentiation,derivative of a quotient,(c),
+475,2004,AB4 BC4,,,tangents,horizontal tangents,(b),
+476,2004,AB4 BC4,,,"maximum, minimum",local extrema,(c),
+477,2004,AB5,graphical,general,area,area of a region,(a),closed
+478,2004,AB5,,,fundamental theorem,analysis of a function defined by a definite integral using the Fundamental Theorem,(a),
+479,2004,AB5,,,"maximum, minimum",local extrema,(b),
+480,2004,AB5,,,"maximum, minimum",absolute extrema,(c),
+481,2004,AB5,,,points of inflection,point of inflection,(d),
+482,2004,AB6,analytic,algebraic,slope fields,slope fields,(a) (b),closed
+483,2004,AB6,,,differential equations,solving separable differential equations,(c),
+484,2004,BC3,analytic,trigonometric,parametric equations,analysis of planar curve given in parametric form,(a) (b) (c) (d),active
+485,2004,BC3,,,total change given rate of change,integral of a rate of change to give accumulated change,(a),
+486,2004,BC3,,,differentiation,derivative of parametric function,(b),
+487,2004,BC3,,,vectors,velocity vector and speed,(c),
+488,2004,BC3,,,vectors,acceleration vector,(d),
+489,2004,BC5,analytic,exponential,differential equations,solving logistic differential equations and using them in modeling,(a) (b),closed
+490,2004,BC5,,,differential equations,solution of a differential equation,(c),
+491,2004,BC5,,,limits,limits of functions,(a) (d),
+492,2004,BC6,analytic,trigonometric,series,Taylor polynomial approximation,(a) (d),closed
+493,2004,BC6,,,series,Taylor series,(b),
+494,2004,BC6,,,series,Lagrange error bound,(c),
+528,2003,BC5,,,improper integrals,improper integrals,(d),
+529,2003,AB1 BC1,analytic,exponential,area,area of a region,(a),active
+530,2003,AB1 BC1,,algebraic,volume,volume of a solid of revolution,(b),
+531,2003,AB1 BC1,,,volume-slicing,volume of a solid with known cross section,(c) ,
+532,2003,AB2,analytic,trigonometric,motion on a line,particle motion on a line,(a) (b) (c) (d),active
+533,2003,AB2,,,differentiation,"interpretation of derivative in context of velocity, speed, and acceleration",(a) (b) ,
+534,2003,AB2,,,distance,distance traveled by a particle along a line,(c),
+535,2003,AB2,,,"maximum, minimum",absolute extrema,(d),
+536,2003,AB3,tabular,general,"derivative, definition",approximate rate of change from graphs and tables of values,(a),neutral
+537,2003,AB3,graphical,,differentiation,interpretation of second derivative,(b),
+538,2003,AB3,verbal,,Riemann sums,computation of left Riemann Sum,(c),
+539,2003,AB3,,,definite integral,interpretation of definite integrals,(d),
+540,2003,AB4 BC4,graphical,general,"derivative, graph of",corresponding characteristics of graphs of f and f',(a),closed
+541,2003,AB4 BC4,,,points of inflection,point of inflection,(b),
+542,2003,AB4 BC4,,,tangents,tangent line to a curve at a point,(c),
+543,2003,AB4 BC4,,,fundamental theorem,accumulation function/Fundamental Theorem,(d),
+544,2003,AB5 BC5,analytic,algebraic,differentiation,derivative of basic functions,(a),closed
+545,2003,AB5 BC5,verbal,,differentiation,chain rule,(a),
+546,2003,AB5 BC5,,,differential equations,solving separable differential equations,(b),
+547,2003,AB5 BC5,,,integration methods,antiderivatives following directly from derivatives of basic funcions,(b),
+548,2003,AB6,analytic,algebraic,continuity,understanding continuity in terms of limits,(a),closed
+549,2003,AB6,,,average value,average value of a function,(b),
+550,2003,AB6,,,differentiability,differentiability,(c),
+551,2003,AB6,,,integration methods,antiderivatives following directly from derivatives of basic funcions,(b),
+552,2003,AB6,,,fundamental theorem,use of the Fundamental Theorem to evaluate definite integrals,(b),
+553,2003,BC2,graphical,trigonometric,parametric equations,analysis of planar curve given in parametric form,(a) (b) (c) (d),active
+554,2003,BC2,analytic,,differentiation,interpretation of derivative as a rate of change,(a) ,
+555,2003,BC2,,,differentiation,derivative of parametric function,(b),
+556,2003,BC2,,,vectors,velocity vector and speed,(c),
+557,2003,BC2,,,fundamental theorem,accumulation function/Fundamental Theorem,(d),
+558,2003,BC3,analytic,algebraic,differentiation,derivative of basic functions,(a),active
+559,2003,BC3,,trigonometric,differentiation,chain rule,(a),
+560,2003,BC3,,,area,area of a region,(b),
+561,2003,BC3,,,polar coordinates,polar curves,(c),
+562,2003,BC3,,,area,area of a region bounded by a polar curve,(d),
+563,2003,BC6,analytic,trigonometric,series,function defined by power series,(a),closed
+564,2003,BC6,,algebraic,series,alternating series with error bound,(b),
+565,2003,BC6,,,series,manipulation of Taylor series to form new series from known series,(c),
+566,2003,BC6,,,series,Maclaurin series for sin(x),(c),
+608,2002,BC6,,,interval/convergence,convergence of geometric series,(d),
+609,2002,AB1 BC1,analytic,exponential,area,area of a region,(a),active
+610,2002,AB1 BC1,,logarithmic,volume,volume of a solid of revolution,(b),
+611,2002,AB1 BC1,,,"maximum, minimum",absolute extrema,(c),
+612,2002,AB2 BC2,analytic,algebraic,total change given rate of change,integral of a rate of change to give accumulated change,(a) (b),active
+613,2002,AB2 BC2,verbal,,fundamental theorem,accumulation function/Fundamental Theorem,(c),
+614,2002,AB2 BC2,,,fundamental theorem,analysis of a function defined by a definite integral using the Fundamental Theorem,(c),
+615,2002,AB2 BC2,,,differentiation,interpretation of derivative as a rate of change,(c),
+616,2002,AB2 BC2,,,definite integral,interpretation of definite integrals,(c),
+617,2002,AB2 BC2,,,"maximum, minimum",absolute extrema,(d),
+618,2002,AB3,analytic,trigonometric,motion on a line,particle motion on a line,(a) (b) (c) (d),neutral
+619,2002,AB3,,,differentiation,"interpretation of derivative in context of velocity, speed, and acceleration",(a) (b) ,
+620,2002,AB3,,,distance,distance traveled by a particle along a line,(c),
+621,2002,AB3,,,anti-differentiation (initial conditions),finding specific antiderivatives using initial conditions,(d),
+622,2002,AB4 BC4,graphical,general,area,area of a region,(a),closed
+623,2002,AB4 BC4,,,fundamental theorem,analysis of a function defined by a definite integral using the Fundamental Theorem,(a),
+624,2002,AB4 BC4,,,"derivative, graph of",relationship between the increasing and decreasing behavior of f and the sign of f',(b),
+625,2002,AB4 BC4,,,concavity,relationship between the concavity of f and the sign of f'',(c),
+626,2002,AB4 BC4,,,"derivative, graph of","corresponding characteristics of the graphs of f, f', and f''",(d),
+627,2002,AB5,verbal,algebraic,differentiation,derivative of basic functions,(b),closed
+628,2002,AB5,,,differentiation,chain rule,(b) (c),
+629,2002,AB5,,,differentiation,interpretation of derivative as a rate of change,(b) (c),
+630,2002,AB6,tabular,general,total change given rate of change,definite integral of a rate of change,(a),closed
+631,2002,AB6,,algebraic,integration methods,antiderivatives following directly from derivatives of basic funcions,(a),
+632,2002,AB6,,,fundamental theorem,use of the Fundamental Theorem to evaluate definite integrals,(a),
+633,2002,AB6,,,tangents,tangent line to a curve at a point,(b),
+634,2002,AB6,,,tangents,local linear approximation,(b),
+635,2002,AB6,,,mean value theorem,Mean Value Theorem,(c),
+636,2002,AB6,,,continuity,understanding continuity in terms of limits,(d),
+637,2002,AB6,,,differentiation,derivative of basic functions,(d),
+638,2002,BC3,analytic,trigonometric,parametric equations,analysis of planar curve given in parametric form,(a) (b) (c) (d),active
+639,2002,BC3,,,tangents,slope of a curve at a point,(a),
+640,2002,BC3,,,differentiation,derivative of parametric function,(a),
+641,2002,BC3,,,vectors,acceleration vector,(b),
+642,2002,BC3,,,"maximum, minimum",absolute extrema,(c),
+643,2002,BC3,,,vectors,speed,(c) (d),
+644,2002,BC3,,,average value,average value of a function,(d),
+645,2002,BC5,analytic,algebraic,slope fields,relationship between slope fields and solution curves for differential equations,(a),closed
+646,2002,BC5,,,Euler's method,Euler's method,(b),
+647,2002,BC5,,,differential equations,solution of a differential equation,(c),
+648,2002,BC5,,,"maximum, minimum",local extrema,(d),
+649,2002,BC6,analytic,algebraic,interval/convergence,interval of convergence of power series,(a),closed
+650,2002,BC6,,,series,manipulation of series by differentiation,(b),
+685,2001,BC6,,,interval/convergence,convergence of p-series ,(c) (d),
+686,2001,AB1,analytic,algebraic,area,area of a region,(a) (b),active
+687,2001,AB1,,trigonometric,volume,volume of a solid of revolution,(c),
+688,2001,AB2 BC2,tabular,exponential,"derivative, definition",approximate rate of change from graphs and tables of values,(a),active
+689,2001,AB2 BC2,,general,average value,average value of a function, (b) (d),
+690,2001,AB2 BC2,,,trapezoidal approximation,computation of trapezoidal sum,(b),
+691,2001,AB2 BC2,,,differentiation,interpretation of derivative as a rate of change,(c),
+692,2001,AB3 BC3,graphical,general,motion on a line,particle motion on a line,(a) (b) (c) (d),neutral
+693,2001,AB3 BC3,,,differentiation,"interpretation of derivative in context of velocity, speed, and acceleration",(a) ,
+694,2001,AB3 BC3,,,total change given rate of change,integral of a rate of change to give accumulated change,(b) (c) (d),
+695,2001,AB3 BC3,,,"maximum, minimum",absolute extrema,(c),
+696,2001,AB4 BC4,analytic,algebraic,tangents,horizontal tangents,(a),closed
+697,2001,AB4 BC4,,,"maximum, minimum",local extrema,(a),
+698,2001,AB4 BC4,,,differentiation,derivative of basic functions,(b),
+699,2001,AB4 BC4,,,differentiation,derivative of a quotient,(b),
+700,2001,AB4 BC4,,,concavity,relationship between the concavity of f and the sign of f'',(c),
+701,2001,AB4 BC4,,,concavity,tangent line and concavity,(d),
+702,2001,AB5,analytic,algebraic,differentiation,derivative of basic functions,(a),closed
+703,2001,AB5,,,"derivative, graph of",relationship between the increasing and decreasing behavior of f and the sign of f',(a),
+704,2001,AB5,,,concavity,relationship between the concavity of f and the sign of f'',(a),
+705,2001,AB5,,,integration methods,antiderivatives following directly from derivatives of basic funcions,(b),
+706,2001,AB5,,,fundamental theorem,use of the Fundamental Theorem to evaluate definite integrals,(b),
+707,2001,AB6,analytic,algebraic,differentiation,derivative of basic functions,(a),closed
+708,2001,AB6,,,"differentiation, implicit",implicit differentiation,(a),
+709,2001,AB6,,,differentiation,chain rule,(a),
+710,2001,AB6,,,differential equations,solving separable differential equations ,(b),
+711,2001,AB6,,,integration methods,antiderivatives following directly from derivatives of basic funcions,(b),
+712,2001,BC1,analytic,trigonometric,parametric equations,analysis of planar curve given in parametric form,(a) (b) (c) (d),active
+713,2001,BC1,,,tangents,tangent line to a curve at a point,(a),
+714,2001,BC1,,,differentiation,derivative of parametric function,(a),
+715,2001,BC1,,,vectors,speed,(b),
+716,2001,BC1,,,arc length,length of a curve given in parametric form,(c),
+717,2001,BC1,,,total change given rate of change,integral of a rate of change to give accumulated change,(d),
+718,2001,BC5,analytic,exponential,fundamental theorem,use of the Fundamental Theorem to evaluate definite integrals,(a),closed
+719,2001,BC5,,logarithmic,limits,properties of limits,(a),
+720,2001,BC5,,,Euler's method,Euler's method,(b),
+721,2001,BC5,,,differential equations,solving separable differential equations,(c),
+722,2001,BC5,,,integration methods,antiderivatives following directly from derivatives of basic funcions,(c),
+723,2001,BC6,analytic,algebraic,series,function defined by power series,(a) (b) (c) (d),closed
+724,2001,BC6,,,interval/convergence,interval of convergence of power series,(a),
+725,2001,BC6,,,limits,calculating limits using algebra,(b),
+726,2001,BC6,,,series,manipulation of series by antidifferentiation,(c),
+727,2001,BC6,,,integration methods,antiderivatives following directly from derivatives of basic funcions,(c),
+728,2001,BC6,,,fundamental theorem,use of the Fundamental Theorem to evaluate definite integrals,(c),
+729,2000,BC6,,,series,geometric series,(d),
+730,2000,AB1 BC1,analytic,exponential,area,area of a region,(a) ,active
+731,2000,AB1 BC1,,trigonometric,volume,volume of a solid of revolution,(b),
+732,2000,AB1 BC1,,,volume-slicing,volume of a solid with known cross section,(c),
+733,2000,AB2 BC2,graphical,algebraic,motion on a line,particle motion on a line,(a) (b) (c),active
+734,2000,AB2 BC2,analytic,,differentiation,"interpretation of derivative in context of velocity, speed, and acceleration",(a) (b) ,
+735,2000,AB2 BC2,,,total change given rate of change,integral of a rate of change to give accumulated change,(c),
+736,2000,AB3,graphical,general,"maximum, minimum",local extrema,(a) (b),neutral
+737,2000,AB3,,,"derivative, graph of",corresponding characteristics of graphs of f and f',(a) (b),
+738,2000,AB3,,,"derivative, graph of","corresponding characteristics of the graphs of f, f', and f''",(c),
+739,2000,AB3,,,"maximum, minimum",absolute extrema,(d),
+740,2000,AB3,,,total change given rate of change,integral of a rate of change to give accumulated change,(d),
+741,2000,AB4,verbal,algebraic,total change given rate of change,integral of a rate of change to give accumulated change,(a) (c),closed
+742,2000,AB4,analytic,,integration methods,antiderivatives following directly from derivatives of basic funcions,(a),
+743,2000,AB4,,,integration methods,antiderivatives by substitution,(a),
+744,2000,AB4,,,fundamental theorem,use of the Fundamental Theorem to evaluate definite integrals,(a),
+745,2000,AB4,,,"maximum, minimum",absolute extrema,(d),
+746,2000,AB4,,,fundamental theorem,analysis of a function defined by a definite integral using the Fundamental Theorem,(d),
+747,2000,AB5 BC5,analytic,algebraic,"differentiation, implicit",implicit differentiation,(a),closed
+748,2000,AB5 BC5,,,differentiation,derivative of basic functions,(a),
+749,2000,AB5 BC5,,,differentiation,chain rule,(a),
+750,2000,AB5 BC5,,,tangents,tangent line to a curve at a point,(b),
+751,2000,AB5 BC5,,,tangents,vertical tangents,(c),
+752,2000,AB6,analytic,exponential,differential equations,solving separable differential equations,(a),closed
+753,2000,AB6,,algebraic,integration methods,antiderivatives following directly from derivatives of basic funcions,(a),
+754,2000,AB6,,,integration methods,antiderivatives by substitution,(a),
+755,2000,AB6,,,precalculus,domain of a function,(b),
+756,2000,AB6,,,precalculus,range of a function,(b),
+757,2000,BC3,analytic,algebraic,series,Taylor polynomial approximation,(a),active
+758,2000,BC3,,,interval/convergence,radius of convergence,(b),
+759,2000,BC3,,,series,alternating series with error bound,(c),
+760,2000,BC4,analytic,algebraic,parametric equations,analysis of planar curve given in parametric form,(a) (b) (c) (d),closed
+761,2000,BC4,,,vectors,acceleration vector,(a),
+762,2000,BC4,,,anti-differentiation (initial conditions),finding specific antiderivatives using initial conditions,(b),
+763,2000,BC4,,,integration methods,antiderivatives following directly from derivatives of basic funcions,(b),
+764,2000,BC4,,,differentiation,derivative of parametric function,(c),
+765,2000,BC4,,,limits,describing asymptotic behavior in terms of limits at infinity,(d),
+766,2000,BC6,analytic,algebraic,slope fields,slope fields,(a),closed
+767,2000,BC6,,,slope fields,relationship between slope fields and solution curves for differential equations,(b),
+768,2000,BC6,,,differential equations,solving separable differential equations ,(c),
+769,2000,BC6,,,integration methods,antiderivatives following directly from derivatives of basic funcions,(c) ,
+770,2000,BC6,,,integration methods,antiderivatives by substitution,(c),
+771,1999,BC6,,,precalculus,range of a function,(d),
+772,1999,AB1,analytic,trigonometric,motion on a line,particle motion on a line,(a) (b) (c),active
+773,1999,AB1,,,differentiation,"interpretation of derivative in context of velocity, speed, and acceleration",,
+774,1999,AB1,,,anti-differentiation (initial conditions),finding specific antiderivatives using initial conditions,(c),
+775,1999,AB1,,,distance,distance traveled by a particle along a line,(d),
+776,1999,AB2 BC2,analytic,algebraic,area,area of a region,(a),neutral
+777,1999,AB2 BC2,,,volume,volume of a solid of revolution,(b) (c),
+778,1999,AB3 BC3,tabular,general,Riemann sums,computation of midpoint Riemann Sum,(a),active
+779,1999,AB3 BC3,,algebraic,total change given rate of change,integral of a rate of change to give accumulated change,(a),
+780,1999,AB3 BC3,,,mean value theorem,Mean Value Theorem,(b),
+781,1999,AB3 BC3,,,average value,average value of a function,(c),
+782,1999,AB3 BC3,,,definite integral,interpretation of definite integrals,(c),
+783,1999,AB4,analytic,exponential,tangents,tangent line to a curve at a point,(a) (c),neutral
+784,1999,AB4,,,points of inflection,point of inflection,(b),
+785,1999,AB4,,,differentiation,derivative of basic functions,(d),
+786,1999,AB4,,,differentiation,chain rule,(d),
+787,1999,AB4,,,"maximum, minimum",local extrema,(d),
+788,1999,AB5 BC5,graphical,general,total change given rate of change,definite integral of a rate of change over an interval,(a),neutral
+789,1999,AB5 BC5,,,fundamental theorem,accumulation function/Fundamental Theorem,(b),
+790,1999,AB5 BC5,,,fundamental theorem,analysis of a function defined by a definite integral using the Fundamental Theorem,(c) (d),
+791,1999,AB5 BC5,,,"maximum, minimum",absolute extrema,(c),
+792,1999,AB5 BC5,,,points of inflection,point of inflection,(d),
+793,1999,AB6,analytic,algebraic,tangents,tangent line to a curve at a point,(a),neutral
+794,1999,AB6,,,related rates,related rates,(c) (d),
+795,1999,AB6,,,differentiation,interpretation of derivative as a rate of change,(d),
+796,1999,BC1,analytic,logarithmic,parametric equations,analysis of planar curve given in parametric form,(a) (b) (c),active
+797,1999,BC1,,trigonometric,"maximum, minimum",local extrema,(b),
+798,1999,BC1,,,vectors,speed,(c),
+799,1999,BC1,,,vectors,acceleration vector,(d),
+800,1999,BC4,analytic,general,series,Taylor polynomial approximation,(a),neutral
+801,1999,BC4,,,series,Lagrange error bound,(b),
+802,1999,BC4,,,series,manipulation of Taylor series to form new series from known series,(c),
+803,1999,BC4,,,"maximum, minimum",local extrema,(c),
+804,1999,BC6,analytic,exponential,tangents,tangent line to a curve at a point,(a),active
+805,1999,BC6,,,tangents,local linear approximation,(a),
+806,1999,BC6,,,Euler's method,Euler's method,(b),
+807,1998,BC6,,,fundamental theorem,use of the Fundamental Theorem to evaluate definite integrals,(c),
+808,1998,AB1,analytic,algebraic,area,area of a region,(a) (b),neutral
+809,1998,AB1,,,volume,volume of a solid of revolution,(c) (d),
+810,1998,AB2 BC2,analytic,exponential,limits,limits of functions,(a),neutral
+811,1998,AB2 BC2,,,"maximum, minimum",absolute extrema,(b) (d),
+812,1998,AB2 BC2,,,differentiation,derivative of basic functions,(b) (d),
+813,1998,AB2 BC2,,,differentiation,chain rule,(b) (d),
+814,1998,AB2 BC2,,,precalculus,range of a function,(c),
+815,1998,AB3,graphical,general,motion on a line,particle motion on a line,(a) (b) (c) (d),neutral
+816,1998,AB3,tabular,,differentiation,"interpretation of derivative in context of velocity, speed, and acceleration",(a),
+817,1998,AB3,,,average rate of change,average rate of change,(b),
+818,1998,AB3,,,"derivative, definition",approximate rate of change from graphs and tables of values,(c),
+819,1998,AB3,,,Riemann sums,computation of midpoint Riemann Sum,(d),
+820,1998,AB3,,,distance,distance traveled by a particle along a line,(d),
+821,1998,AB3,,,definite integral,interpretation of definite integrals,(d),
+822,1998,AB4,analytic,algebraic,tangents,slope of a curve at a point,(a),active
+823,1998,AB4,,,tangents,tangent line to a curve at a point,(b),
+824,1998,AB4,,,differential equations,solving separable differential equations,(c),
+825,1998,AB4,,,integration methods,antiderivatives following directly from derivatives of basic funcions,(c),
+826,1998,AB5 BC5,analytic,trigonometric,average value,average value of a function,(b),active
+827,1998,AB5 BC5,,,total change given rate of change,integral of a rate of change to give accumulated change,(c),
+828,1998,AB6,analytic,algebraic,differentiation,derivative of basic functions,(a),neutral
+829,1998,AB6,,,"differentiation, implicit",implicit differentiation,(a),
+830,1998,AB6,,,differentiation,chain rule,(a),
+831,1998,AB6,,,tangents,tangent line to a curve at a point,(b) (c),
+832,1998,AB6,,,tangents,horizontal tangents,(b),
+833,1998,BC1,analytic,algebraic,area,area of a region,(a),active
+834,1998,BC1,,,volume,volume of a solid of revolution,(b) (c),
+835,1998,BC3,analytic,general,series,Taylor polynomial approximation,(a),neutral
+836,1998,BC3,,,series,manipulation of Taylor series to form new series from known series,(b) (c),
+837,1998,BC4,analytic,algebraic,slope fields,slope fields,(a),active
+838,1998,BC4,,,Euler's method,Euler's method,(b),
+839,1998,BC4,,,differential equations,solving separable differential equations,(c),
+840,1998,BC4,,,integration methods,antiderivatives following directly from derivatives of basic funcions,(c),
+841,1998,BC6,analytic,algebraic,differential equations,solving separable differential equations,(a),neutral
+842,1998,BC6,,,integration methods,antiderivatives following directly from derivatives of basic funcions,(a),
+843,1998,BC6,,,integration methods,antiderivatives by substitution,(a),
+844,1998,BC6,,,differentiation,derivative of basic functions,(b),
+845,1998,BC6,,,differentiation,chain rule,(b),
